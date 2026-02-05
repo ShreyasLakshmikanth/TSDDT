@@ -1,0 +1,57 @@
+[
+  {
+    "id": "st7_colloid",
+    "name": "ST7 Colloid Thruster",
+    "type": "Electrostatic",
+    "thrust_N": 0.00003,
+    "isp_s": 3000,
+    "power_W": 30,
+    "mass_kg": 6.0,
+    "trl": 9,
+    "source": "Busek / LISA Pathfinder (Table 1)"
+  },
+  {
+    "id": "pps1350",
+    "name": "PPS-1350 Hall Thruster",
+    "type": "Electrostatic",
+    "thrust_N": 0.090,
+    "isp_s": 1660,
+    "power_W": 1500,
+    "mass_kg": 5.3,
+    "trl": 9,
+    "source": "Safran / SMART-1 (Table 1)"
+  },
+  {
+    "id": "mr512",
+    "name": "MR-512 Arcjet",
+    "type": "Electrothermal",
+    "thrust_N": 0.254,
+    "isp_s": 502,
+    "power_W": 1800,
+    "mass_kg": 1.3,
+    "trl": 9,
+    "source": "Aerojet / Flight Proven (Table 2)"
+  },
+  {
+    "id": "mr502",
+    "name": "MR-502 Resistojet",
+    "type": "Electrothermal",
+    "thrust_N": 0.5,
+    "isp_s": 304,
+    "power_W": 840,
+    "mass_kg": 0.8,
+    "trl": 9,
+    "source": "Aerojet / Flight Proven (Table 2)"
+  },
+  {
+    "id": "appt250",
+    "name": "APPT-250 (Pulsed Plasma)",
+    "type": "Electromagnetic",
+    "thrust_N": 0.001,
+    "isp_s": 1900,
+    "power_W": 60,
+    "mass_kg": 2.5,
+    "trl": 6,
+    "source": "Experimental / Review (Table 3)"
+  }
+]
