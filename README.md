@@ -13,10 +13,10 @@ This tool is a Python-based analytical system designed to automate the selection
 ## Technical Implementation
 
 ### Data Format: JSON
-***<font color="green"><i>I selected JSON as the data exchange format because it is the industry standard for aerospace APIs, ensuring the catalog is natively readable by almost all programming languages (Python, C++, MATLAB). It offers the flexibility to store non-uniform thruster specifications in hierarchical structures without the rigidity of a flat spreadsheet, while remaining text-based for easy version control via Git.</i></font>***
+***<i>I selected JSON as the data exchange format because it is the industry standard for aerospace APIs, ensuring the catalog is natively readable by almost all programming languages (Python, C++, MATLAB). It offers the flexibility to store non-uniform thruster specifications in hierarchical structures without the rigidity of a flat spreadsheet, while remaining text-based for easy version control via Git.</i>***
 
 ### Framework: Argparse (CLI)
-***<font color="green"><i>The tool utilises the Argparse library to provide a professional Command Line Interface. This framework was chosen for its efficiency, allowing mission designers to iterate rapidly through scenarios without modifying source code, and its robust input validation that ensures mission parameters are mathematically sound before calculations begin.</i></font>***
+***<i>The tool utilises the Argparse library to provide a professional Command Line Interface. This framework was chosen for its efficiency, allowing mission designers to iterate rapidly through scenarios without modifying source code, and its robust input validation that ensures mission parameters are mathematically sound before calculations begin.</i>***
 
 ---
 
@@ -29,7 +29,7 @@ The tool doesn't just "match" inputs; it performs an architectural trade-off.
 ---
 
 ## Future Scaling & Evolution
-***<font color="green"><i>To scale this to a much larger catalog and richer criteria, I would migrate to a PostgreSQL backend using JSONB features to handle thousands of entries with high-performance filtering. I would also expand selection criteria to include Volume Analysis (CubeSat U-size), TRL filtering for risk management, and Thermal Note analysis to ensure the satellite can dissipate waste heat.</i></font>***
+***<i>To scale this to a much larger catalog and richer criteria, I would migrate to a PostgreSQL backend using JSONB features to handle thousands of entries with high-performance filtering. I would also expand selection criteria to include Volume Analysis (CubeSat U-size), TRL filtering for risk management, and Thermal Note analysis to ensure the satellite can dissipate waste heat.</i>***
 
 1. **Database Migration (PostgreSQL):**
     * Migrate to a relational database to manage complex relationships between thrusters, compatible propellants, and Power.
